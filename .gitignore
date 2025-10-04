@@ -1,3 +1,5 @@
+secret.md
+
 # Logs
 logs
 *.log
@@ -138,4 +140,3 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 secret.md
-.gitignore
