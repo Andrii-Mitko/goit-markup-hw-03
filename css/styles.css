@@ -3,6 +3,7 @@ body {
   color: #434455;
   background: #fff;
 }
+
 h1,
 h2,
 h3,
@@ -29,16 +30,32 @@ img {
   max-width: 100%;
   height: auto;
 }
-.container { 
-max-width: 
-padding-left:  
-padding-right:  
-margin-left:  
-margin-right:  
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* #region Header  */
 
-/* #region Header Top Line */
-
+#container-heder {
+  display: flex;
+  gap: 332px;
+}
+.header-top-line {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
+}
+.nav-header {
+  display: flex;
+  gap: 76px;
+}
 .top-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -51,7 +68,10 @@ margin-right:
 .top-studio {
   color: #2e2f42;
 }
-
+.header-list {
+  display: flex;
+  gap: 40px;
+}
 .menu-studio {
   font-weight: 500;
   font-size: 16px;
@@ -87,10 +107,15 @@ margin-right:
   color: #404bbf;
 }
 
-/* #endregion Header Top Line */
+/* #endregion Header  */
 
-/* #region Section 1   Effective Solutions for Your Business */
-
+/* #region  Effective Solutions for Your Business */
+#container-solut {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 48px;
+}
 .title-solutions {
   font-weight: 700;
   font-size: 56px;
@@ -98,10 +123,12 @@ margin-right:
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  width: 496px;
 }
-.effective-solutions {
+#effective-solutions {
   background: #2e2f42;
 }
+
 .title-solutions {
   font-weight: 700;
   font-size: 56px;
@@ -118,6 +145,8 @@ margin-right:
   cursor: pointer;
   color: #fff;
   background: #4d5ae5;
+  width: 169px;
+  height: 56px;
 }
 .button-solutions:hover {
   background: #404bbf;
@@ -126,10 +155,31 @@ margin-right:
   background: #404bbf;
 }
 
-/* #endregion Section 1   Effective Solutions for Your Business */
+/* #endregion  Effective Solutions for Your Business */
 
-/* #region Section 2   Advantage  */
+/* #region  Advantage  */
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.advantage-list {
+  display: flex;
+  gap: 24px;
+}
+.advantage-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
 .advantage-title {
   font-weight: 500;
   font-size: 20px;
@@ -148,8 +198,13 @@ margin-right:
 
 /* #region Section 3   Our Team  */
 
-.our-team {
+#our-team {
   background: #f4f4fd;
+}
+#container-team {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
 }
 .team-title {
   font-weight: 700;
@@ -161,7 +216,20 @@ margin-right:
   text-transform: capitalize;
 }
 .team-list {
+  display: flex;
+  gap: 24px;
+}
+.team-item {
   background: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.team-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-bottom: 32px;
 }
 .team-name {
   font-weight: 500;
@@ -179,10 +247,15 @@ margin-right:
   text-align: center;
   color: #434455;
 }
-/* #endregion Section 3   Our Team  */
+/* #endregion  Our Team  */
 
-/* #region Section 4   Our Portfolio */
+/* #region Our Portfolio */
 
+.portfolio-list {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
@@ -191,6 +264,7 @@ margin-right:
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  padding-bottom: 72px;
 }
 .portfolio-products {
   font-weight: 500;
@@ -198,6 +272,7 @@ margin-right:
   line-height: 120%;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 32px;
 }
 .portfolio-products-text {
   font-weight: 400;
@@ -205,12 +280,19 @@ margin-right:
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
+  padding-top: 8px;
+  padding-bottom: 32px;
 }
+
 /* #endregion Section 4   Our Portfolio */
 
 /* #region Footer */
 
-.footer-title {
+#container-footer {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+#footer {
   background: #2e2f42;
 }
 .footer-text {
@@ -219,6 +301,8 @@ margin-right:
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  width: 264px;
+  padding-top: 16px;
 }
 .footer-studio {
   color: #f4f4fd;
