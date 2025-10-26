@@ -48,13 +48,12 @@ img {
   gap: 332px;
 }
 .header-top-line {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
 }
 .nav-header {
   display: flex;
-  gap: 76px;
+  align-items: center;
 }
 .top-logo {
   font-family: "Raleway", sans-serif;
@@ -64,6 +63,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 .top-studio {
   color: #2e2f42;
@@ -127,6 +127,7 @@ img {
 }
 #effective-solutions {
   background: #2e2f42;
+  padding: 188px 0;
 }
 
 .title-solutions {
@@ -135,6 +136,7 @@ img {
   line-height: 107%;
   letter-spacing: 0.02em;
   text-align: center;
+  max-width: 496px;
 }
 .button-solutions {
   font-family: "Roboto", sans-serif;
@@ -145,8 +147,10 @@ img {
   cursor: pointer;
   color: #fff;
   background: #4d5ae5;
-  width: 169px;
   height: 56px;
+  min-width: 169px;
+  border: none;
+  border-radius: 4px;
 }
 .button-solutions:hover {
   background: #404bbf;
