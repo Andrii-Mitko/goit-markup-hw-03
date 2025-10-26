@@ -36,8 +36,7 @@ img {
 }
 .container {
   max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -79,6 +78,7 @@ img {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 .menu-studio:hover {
   color: #404bbf;
@@ -297,14 +297,11 @@ img {
 
 /* #region Footer */
 
-#footer {
+.section-footer {
   background: #2e2f42;
-}
-.container-text {
   padding: 100px 0;
-  display: flex;
-  flex-direction: column;
 }
+
 .top-logo-footer {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -325,7 +322,6 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   width: 264px;
-  display: inline-block;
   padding-top: 16px;
 }
 
