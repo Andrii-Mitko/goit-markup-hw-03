@@ -48,7 +48,6 @@ img {
   gap: 332px;
 }
 .header-top-line {
-  padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
 }
 .nav-header {
@@ -63,6 +62,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
   margin-right: 76px;
 }
 .top-studio {
@@ -71,6 +71,7 @@ img {
 .header-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 .menu-studio {
   font-weight: 500;
@@ -177,19 +178,18 @@ img {
 }
 .advantage-list {
   display: flex;
+  align-items: center;
   gap: 24px;
+  height: calc((100% - 72px) / 4);
 }
-.advantage-item {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
+
 .advantage-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .advantage-text {
   font-weight: 400;
@@ -198,17 +198,15 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
-/* #endregion Section 2   Advantage  */
+/* #endregion  Advantage  */
 
-/* #region Section 3   Our Team  */
+/* #region  Our Team  */
 
 #our-team {
   background: #f4f4fd;
 }
 #container-team {
-  display: flex;
-  flex-direction: column;
-  gap: 72px;
+  padding: 32px 0;
 }
 .team-title {
   font-weight: 700;
@@ -218,6 +216,7 @@ img {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .team-list {
   display: flex;
@@ -225,9 +224,8 @@ img {
 }
 .team-item {
   background: #fff;
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
+
+  border-radius: 0px 0px 4px 4px;
 }
 .team-text {
   display: flex;
@@ -242,6 +240,8 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-top: 32px;
+  margin-bottom: 8px;
 }
 .team-prof {
   font-weight: 400;
@@ -259,6 +259,7 @@ img {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
+  row-gap: 48px;
 }
 .portfolio-title {
   font-weight: 700;
@@ -268,7 +269,7 @@ img {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .portfolio-products {
   font-weight: 500;
@@ -299,6 +300,19 @@ img {
 #footer {
   background: #2e2f42;
 }
+.top-logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  margin-bottom: 16px;
+}
+.footer-studio {
+  color: #f4f4fd;
+}
 .footer-text {
   font-weight: 400;
   font-size: 16px;
@@ -306,9 +320,8 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   width: 264px;
+  display: inline-block;
   padding-top: 16px;
 }
-.footer-studio {
-  color: #f4f4fd;
-}
+
 /* #endregion Footer */
