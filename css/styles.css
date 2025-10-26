@@ -71,6 +71,7 @@ img {
   color: #2e2f42;
 }
 .header-list {
+  display: block;
   display: flex;
   gap: 40px;
 }
