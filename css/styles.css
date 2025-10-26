@@ -46,8 +46,6 @@ img {
 #container-header {
   display: flex;
   gap: 332px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .header-top-line {
   border-bottom: 1px solid #e7e9fc;
@@ -55,6 +53,8 @@ img {
 .nav-header {
   display: flex;
   align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .top-logo {
   font-family: "Raleway", sans-serif;
@@ -94,6 +94,8 @@ img {
 
 .header-address {
   font-style: normal;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .address-item {
   font-weight: 400;
